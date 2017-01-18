@@ -1,0 +1,105 @@
+//
+//  QRPay-Prefix.pch
+//  QRPay
+//
+//  Created by yy on 16/9/18.
+//  Copyright © 2016年 yy. All rights reserved.
+//
+
+#ifndef QRPay_Prefix_pch
+#define QRPay_Prefix_pch
+
+#import "BasesViewController.h"
+#import "UPConfig.h"
+#import "UINavigationController+FDFullscreenPopGesture.h"
+#import "YYAlertsView.h"
+#import "Constant.h"
+#import "netAPI.h"
+#import "UPConfig.h"
+#import "PayConfig.h"
+#import "MBProgressHUD+Add.h"
+#import "MBProgressHUD.h"
+
+#define VERSION [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+
+//修改密码 --- scope
+#define MODEFIY_SCOPE (@"CHANGE_PASSWORD")
+
+//注册用户 --- scope
+#define REGISTER_SCOPE (@"CREATE_OPERATOR")
+
+//忘记密码 --- scope
+#define FORGET_SCOPE (@"FORGET_PASSWORD")
+
+
+//随机色
+#define GXRandomColor [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1]
+
+
+// tabBar 高度
+#define kTabBarHeight 49.0f
+// 导航栏高度
+#define kNavigatHeight  64.0f
+
+//app本地存储的key值
+#define APP_USERINFO_KEY (@"app_userInfo_key")
+
+
+#define HTTPErrorMsg @"系统繁忙!"
+/**
+ *     NSlog 转换,buid时取消所有控制台输出
+ */
+#ifdef DEBUG
+#define NSLog(format, ...) printf("\n[%s] %s [第%d行] %s\n", __TIME__, __FUNCTION__, __LINE__, [[NSString stringWithFormat:format, ## __VA_ARGS__] UTF8String]);
+#else
+#define NSLog(format, ...)
+#endif
+
+//颜色
+#define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
+
+#define RGBCOLOR(r,g,b) RGBACOLOR(r,g,b,1.0f)
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+#define TABLEVIEW_GROUPED_BGCOLOR  (RGBCOLOR(239, 239, 244))
+
+//控件的尺寸
+#define WIDTH_VIEW(view) CGRectGetWidth(view.frame)
+#define HEIGHT_VIEW(view) CGRectGetHeight(view.frame)
+#define VIEW_MAXX(view) CGRectGetMaxX(view.frame)
+#define VIEW_MIXX(view) CGRectGetMinX(view.frame)
+#define VIEW_MINY(view) CGRectGetMinY(view.frame)
+#define VIEW_MAXY(view) CGRectGetMaxY(view.frame)
+
+/**
+ *  屏幕尺寸
+ *
+ */
+#define kDeviceWidth    [UIScreen mainScreen].bounds.size.width
+#define kDeviceHeight   [UIScreen mainScreen].bounds.size.height
+
+/**
+ *  尺寸比例
+ */
+#define PPWidth ([UIScreen mainScreen].bounds.size.width/375.0)
+#define PPHeight ([UIScreen mainScreen].bounds.size.height/667.0)
+
+
+#define WEAKSELF typeof(self) __weak weakSelf = self;
+
+/**
+ *   是否展示手势锁
+ */
+#define GESTURELOCKKEY (@"gestureLock")
+
+/**
+ *   是否展示启动页
+ */
+#define LAUNCHSCREENKEY (@"launchScreenKey")
+
+/**
+ *   是否显示新手导航页
+ */
+#define SHOWNEWGUIDER (@"showNewGuider")
+
+#endif /* QRPay_Prefix_pch */
