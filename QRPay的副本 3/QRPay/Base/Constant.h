@@ -12,7 +12,10 @@
 static NSString *kAuthScope = @"snsapi_userinfo";
 static NSString *kAuthOpenID = @"wx0d824f25b403e0c3";
 static NSString *kAuthState = @"gmtx.yijiaSeller";
-static NSString *ServiceURL = @"http://192.168.1.102:8080/wapp/";
+
+static NSString *ServiceURL = @"http://139.224.132.28:8090/wapp/";
+
+
 
 #pragma mark -- 功能页面保存的title的key值
 #define TITILEKEY (@"functionTitleKey")

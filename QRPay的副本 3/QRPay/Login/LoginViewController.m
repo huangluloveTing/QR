@@ -172,7 +172,6 @@
     [MBProgressHUD showHUDAddedTo:self.view.window animated:YES];
     
     WEAKSELF
-    
     [netAPI getGeneralInfoInterfaceCode:@"operatorLogin" Business:[NSDictionary dictionaryWithObjectsAndKeys:[NSString stringWithFormat:@"%@",_phoneTextField.text],@"username",[NSString stringWithFormat:@"%@",_passWordTextField.text],@"password",nil] block:^(ReturnListModel *listing) {
         
         if ([listing.getErrorCode isEqualToString:@"00"]) {

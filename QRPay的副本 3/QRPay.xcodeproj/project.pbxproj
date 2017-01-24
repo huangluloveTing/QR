@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1B149AD81D8F81B20052BE66 /* YYAlertsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B149AD71D8F81B20052BE66 /* YYAlertsView.m */; };
-		1B149ADC1D8F8DB80052BE66 /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B149ADA1D8F8DB80052BE66 /* PayViewController.m */; };
 		1B149B0B1D8FBE760052BE66 /* ShopListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B149B0A1D8FBE760052BE66 /* ShopListsViewController.m */; };
 		1B149B0F1D8FBF280052BE66 /* ShopListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B149B0D1D8FBF280052BE66 /* ShopListTableViewCell.m */; };
 		1B149B101D8FBF280052BE66 /* ShopListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B149B0E1D8FBF280052BE66 /* ShopListTableViewCell.xib */; };
@@ -89,6 +88,8 @@
 		707604D31DED5DD600A0BA6E /* TitleAndContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 707604D21DED5DD600A0BA6E /* TitleAndContentView.m */; };
 		707605181DEE6CDD00A0BA6E /* ScanQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 707605171DEE6CDD00A0BA6E /* ScanQRViewController.m */; };
 		7076051C1DEEB80C00A0BA6E /* UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 7076051B1DEEB80C00A0BA6E /* UserDefaults.m */; };
+		708A7CC41E363CF600197E10 /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 708A7CC21E363CF600197E10 /* PayViewController.m */; };
+		708A7CC51E363CF600197E10 /* PayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 708A7CC31E363CF600197E10 /* PayViewController.xib */; };
 		70B3E9E21DDD3F73002F25E0 /* MoreFUnctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B3E9E11DDD3F73002F25E0 /* MoreFUnctionViewController.m */; };
 		70B3E9E81DDD3FB8002F25E0 /* FunctionFlowLaout.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B3E9E71DDD3FB8002F25E0 /* FunctionFlowLaout.m */; };
 		70B3E9EE1DDD5532002F25E0 /* FuctionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B3E9ED1DDD5532002F25E0 /* FuctionCollectionViewCell.m */; };
@@ -147,7 +148,6 @@
 		70B3EA9F1DE04F13002F25E0 /* NewGuiderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B3EA9E1DE04F13002F25E0 /* NewGuiderView.m */; };
 		70FA01F31DF00E2600D37B99 /* MyAppUserInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FA01F21DF00E2600D37B99 /* MyAppUserInformation.m */; };
 		70FA01F61DF01A1A00D37B99 /* BindShopperOrPartnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FA01F51DF01A1A00D37B99 /* BindShopperOrPartnerViewController.m */; };
-		B37BD8771D8FCFD4001458A9 /* PayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B37BD8761D8FCFD4001458A9 /* PayViewController.xib */; };
 		B3A019691D94C86400C9F691 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A019681D94C86400C9F691 /* CFNetwork.framework */; };
 		B3A0196B1D94C87200C9F691 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A0196A1D94C87200C9F691 /* CoreFoundation.framework */; };
 		B3A0196D1D94C88300C9F691 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A0196C1D94C88300C9F691 /* JavaScriptCore.framework */; };
@@ -206,8 +206,6 @@
 /* Begin PBXFileReference section */
 		1B149AD61D8F81B20052BE66 /* YYAlertsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAlertsView.h; sourceTree = "<group>"; };
 		1B149AD71D8F81B20052BE66 /* YYAlertsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAlertsView.m; sourceTree = "<group>"; };
-		1B149AD91D8F8DB80052BE66 /* PayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PayViewController.h; path = ../PayViewController.h; sourceTree = "<group>"; };
-		1B149ADA1D8F8DB80052BE66 /* PayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PayViewController.m; path = ../PayViewController.m; sourceTree = "<group>"; };
 		1B149AF31D8FB3DB0052BE66 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		1B149B091D8FBE760052BE66 /* ShopListsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopListsViewController.h; sourceTree = "<group>"; };
 		1B149B0A1D8FBE760052BE66 /* ShopListsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopListsViewController.m; sourceTree = "<group>"; };
@@ -361,6 +359,9 @@
 		707605191DEE83F500A0BA6E /* sound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound.caf; sourceTree = "<group>"; };
 		7076051A1DEEB80C00A0BA6E /* UserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaults.h; sourceTree = "<group>"; };
 		7076051B1DEEB80C00A0BA6E /* UserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaults.m; sourceTree = "<group>"; };
+		708A7CC11E363CF600197E10 /* PayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PayViewController.h; path = QRPay/Receivables/PayViewController.h; sourceTree = SOURCE_ROOT; };
+		708A7CC21E363CF600197E10 /* PayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PayViewController.m; path = QRPay/Receivables/PayViewController.m; sourceTree = SOURCE_ROOT; };
+		708A7CC31E363CF600197E10 /* PayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PayViewController.xib; path = QRPay/Receivables/PayViewController.xib; sourceTree = SOURCE_ROOT; };
 		70B3E9E01DDD3F73002F25E0 /* MoreFUnctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreFUnctionViewController.h; sourceTree = "<group>"; };
 		70B3E9E11DDD3F73002F25E0 /* MoreFUnctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreFUnctionViewController.m; sourceTree = "<group>"; };
 		70B3E9E61DDD3FB8002F25E0 /* FunctionFlowLaout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionFlowLaout.h; sourceTree = "<group>"; };
@@ -465,7 +466,6 @@
 		70FA01F21DF00E2600D37B99 /* MyAppUserInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAppUserInformation.m; sourceTree = "<group>"; };
 		70FA01F41DF01A1A00D37B99 /* BindShopperOrPartnerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BindShopperOrPartnerViewController.h; sourceTree = "<group>"; };
 		70FA01F51DF01A1A00D37B99 /* BindShopperOrPartnerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BindShopperOrPartnerViewController.m; sourceTree = "<group>"; };
-		B37BD8761D8FCFD4001458A9 /* PayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PayViewController.xib; path = ../PayViewController.xib; sourceTree = "<group>"; };
 		B3A019681D94C86400C9F691 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		B3A0196A1D94C87200C9F691 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		B3A0196C1D94C88300C9F691 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -814,9 +814,9 @@
 		1BDE94651D90D2F60013C5D2 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				1B149AD91D8F8DB80052BE66 /* PayViewController.h */,
-				1B149ADA1D8F8DB80052BE66 /* PayViewController.m */,
-				B37BD8761D8FCFD4001458A9 /* PayViewController.xib */,
+				708A7CC11E363CF600197E10 /* PayViewController.h */,
+				708A7CC21E363CF600197E10 /* PayViewController.m */,
+				708A7CC31E363CF600197E10 /* PayViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -1494,6 +1494,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				708A7CC51E363CF600197E10 /* PayViewController.xib in Resources */,
 				70B3EA7A1DDFF0F5002F25E0 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				1BDE94551D90CA6A0013C5D2 /* 42.jpg in Resources */,
 				1B149B181D8FCA0A0052BE66 /* OrdersTableViewCell.xib in Resources */,
@@ -1514,7 +1515,6 @@
 				70B3EA7E1DDFF0F5002F25E0 /* read_me.txt in Resources */,
 				1B3CEF471D8E776000D9099F /* LoginViewController.xib in Resources */,
 				1B3CEF371D8E730900D9099F /* NullDatasView.xib in Resources */,
-				B37BD8771D8FCFD4001458A9 /* PayViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1562,6 +1562,7 @@
 				70573D351DE6E9B7005225C5 /* BasesContainTableViewController.m in Sources */,
 				70B3E9E21DDD3F73002F25E0 /* MoreFUnctionViewController.m in Sources */,
 				70B3EA221DDE9FCD002F25E0 /* NSData+ImageContentType.m in Sources */,
+				708A7CC41E363CF600197E10 /* PayViewController.m in Sources */,
 				707604D31DED5DD600A0BA6E /* TitleAndContentView.m in Sources */,
 				70B3EA9F1DE04F13002F25E0 /* NewGuiderView.m in Sources */,
 				70B3E9E81DDD3FB8002F25E0 /* FunctionFlowLaout.m in Sources */,
@@ -1605,7 +1606,6 @@
 				70573D381DE6F302005225C5 /* OrdersViewController.m in Sources */,
 				B3F057FD1D94BBD900545D13 /* netAPI.m in Sources */,
 				70573D6C1DEBBF44005225C5 /* MyBusinessDetailView.m in Sources */,
-				1B149ADC1D8F8DB80052BE66 /* PayViewController.m in Sources */,
 				70573D761DEBE36D005225C5 /* AddNewPartnerBanNumViewController.m in Sources */,
 				B3B7B0B91DC0D2BE001082F1 /* MJRefreshAutoNormalFooter.m in Sources */,
 				70573D7A1DEBF51E005225C5 /* MyPartnerViewController.m in Sources */,
